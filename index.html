@@ -39,10 +39,11 @@
             <div class="image_container">
                 <img class="google_image" src="https://i.imgur.com/CahooNq.png" alt="google.com">
             </div>
-            <form action="post">
+            <form action="https://google.com/search" method="GET">
                 <div class="search_box">
                     <i class="fas fa-search"></i>
-                    <input type="text" name="search" class="form_control" required />
+                    <input type="text" name="q" class="form_control" required />
+                    <input type="hidden" name="sitesearch" value="https://abisalde.github.io/google_clone/" />
                     <div class="voice_search">
                         <img class="microphone" src="https://i.imgur.com/FoaPJIb.png" alt="google_speak_voice">
                         <span class="voice_search_desc">Search by Voice</span>
